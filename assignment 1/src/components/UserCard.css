@@ -1,0 +1,34 @@
+.user-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+  margin: 10px auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-right: 16px;
+}
+
+.user-details {
+  flex: 1;
+}
+
+.user-name {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.user-email,
+.user-phone,
+.user-address {
+  margin: 4px 0;
+  color: #555;
+}
